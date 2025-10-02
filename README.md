@@ -11,17 +11,17 @@ The dataset comes from the table `game_sales` in `sale.db`.
 
 | Column        | Description |
 |---------------|-------------|
-| Rank          | Position in sales ranking |
-| Name          | Game title |
-| Platform      | Console/PC system |
-| Year          | Release year |
-| Genre         | Type of game (Action, RPG, etc.) |
-| Publisher     | Company that released the game |
-| NA_Sales      | North America sales (in millions) |
-| EU_Sales      | Europe sales (in millions) |
-| JP_Sales      | Japan sales (in millions) |
-| Other_Sales   | Sales in other regions (in millions) |
-| Global_Sales  | Total worldwide sales (in millions) |
+| position      | Position in sales ranking |
+| name          | Game title |
+| platform      | Console/PC system |
+| year          | Release year |
+| genre         | Type of game (Action, RPG, etc.) |
+| publisher     | Company that released the game |
+| na_sales      | North America sales (in millions) |
+| eu_sales      | Europe sales (in millions) |
+| jp_sales      | Japan sales (in millions) |
+| other_sales   | Sales in other regions (in millions) |
+| global_sales  | Total worldwide sales (in millions) |
 
 ---
 
@@ -30,7 +30,7 @@ The dataset comes from the table `game_sales` in `sale.db`.
 Install dependencies:
 
 ```bash
-pip install pandas matplotlib seaborn
+pip install pandas matplotlib seaborn sqlite3 missingno  
 ```
 
 Ensure you have `sale.db` in the project folder.
@@ -38,7 +38,7 @@ Ensure you have `sale.db` in the project folder.
 Run the script:
 
 ```bash
-python game_sales_analysis.py
+python game_sales_analysis.ipynb
 ```
 
 ---
