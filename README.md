@@ -86,8 +86,8 @@ The script generates several charts to visualize the data:
 ## 📂 Project Structure
 
 ```
-├── sale.db                      # SQLite database
-├── game_sales_analysis.py        # Python analysis script
+├── sale.db                       # SQLite database
+├── game_sales_analysis.ipynb     # Python analysis script
 ├── README.md                     # Project documentation
 ├── Game Sales by Genre and Region.png
 ├── Top 5 Games by Global Sales.png
